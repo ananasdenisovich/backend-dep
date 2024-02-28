@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const userId = localStorage.getItem('userId');
   try {
-    const userProgramsResponse = await fetch(`http://localhost:3000/user-programs/${userId}`, {
+    const userProgramsResponse = await fetch(`https://backend-dep-aq9c.onrender.com/user-programs/${userId}`, {
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`,
       },
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       userProgramsList.appendChild(programDiv);
     });
 
-    const allProgramsResponse = await fetch('http://localhost:3000/programs', {
+    const allProgramsResponse = await fetch('https://backend-dep-aq9c.onrender.com/programs', {
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`,
       },
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   async function removeProgram(programId) {
     try {
-      const removeProgramResponse = await fetch(`http://localhost:3000/remove-program/${userId}/${programId}`, {
+      const removeProgramResponse = await fetch(`https://backend-dep-aq9c.onrender.com/remove-program/${userId}/${programId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
