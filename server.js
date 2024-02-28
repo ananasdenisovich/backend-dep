@@ -23,7 +23,7 @@ async function initializeFetch() {
     const PORT = process.env.PORT || 3000;
 
     const corsOptions = {
-        origin: 'http://localhost:3000',
+        origin: 'https://backend-dep-aq9c.onrender.com',
         credentials: true,
     };
 
