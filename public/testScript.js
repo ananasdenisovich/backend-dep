@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const testForm = document.getElementById('test-form');
     async function addProgramToUser(userId, programId) {
         try {
-            const response = await fetch(`http://localhost:3000/add-program/${userId}/${programId}`, {
+            const response = await fetch(`https://backend-dep-aq9c.onrender.com/add-program/${userId}/${programId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function addProgram(userId, programId) {
         try {
-            const response = await fetch(`http://localhost:3000/add-program/${userId}/${programId}`, {
+            const response = await fetch(`https://backend-dep-aq9c.onrender.com/add-program/${userId}/${programId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
     async function fetchTestQuestions(language) {
-        const response = await fetch(`http://localhost:3000/getTestQuestions/${language}`, {
+        const response = await fetch(`https://backend-dep-aq9c.onrender.com/getTestQuestions/${language}`, {
             headers: {
                 'Authorization': `Bearer ${token}`,
             },
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const language = 'english';
             const requestBody = { language, score };
 
-            const response = await fetch(`http://localhost:3000/saveTestScores/${userId}`, {
+            const response = await fetch(`https://backend-dep-aq9c.onrender.com/saveTestScores/${userId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
