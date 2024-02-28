@@ -33,7 +33,7 @@ async function initializeFetch() {
     app.use(express.json());
 //local: mongodb://localhost:27017/backend
     //atlas: mongodb+srv://ananasovich2002:87787276658Aa.@cluster0.80wl48q.mongodb.net/backend
-    mongoose.connect('mongodb://localhost:27017/backend', {
+    mongoose.connect('mongodb+srv://ananasovich2002:87787276658Aa.@cluster0.80wl48q.mongodb.net/backend', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
