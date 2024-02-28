@@ -1,0 +1,47 @@
+[
+  {
+    "name": "English A1-A2",
+    "language": "english",
+    "books_id": ["65bb6cd342acec92a5350cb0", "65bb6cd342acec92a5350cb2"]
+},
+{
+    "name": "English B1-B2",
+    "language": "english",
+    "books_id": ["65bb6cd342acec92a5350cb1", "65bb6cd342acec92a5350cb3"]
+},
+  {
+    "name": "English C1-C2",
+    "language": "english",
+    "books_id": ["7123456789abcdef01234568"]
+  },
+  {
+    "name": "French A1-A2",
+    "language": "french",
+    "books_id": ["65bb6cd342acec92a5350ca5", ""]
+  },
+  {
+    "name": "French B1-B2",
+    "language": "french",
+    "books_id": ["65bb6cd342acec92a5350ca6", "65bb6cd342acec92a5350ca9", "65bb6cd342acec92a5350cab"]
+  },
+  {
+    "name": "French C1-C2",
+    "language": "french",
+    "books_id": ["65bb6cd342acec92a5350ca4", "65bb6cd342acec92a5350ca7", "65bb6cd342acec92a5350caa"]
+  },
+  {
+    "name": "Russian A1-A2",
+    "language": "russian",
+    "books_id": ["65bb6cd342acec92a5350cac", "65bb6cd342acec92a5350caf"]
+  },
+  {
+    "name": "Russian B1-B2",
+    "language": "russian",
+    "books_id": ["65bb6cd342acec92a5350ca8", "65bb6cd342acec92a5350cae"]
+  },
+  {
+    "name": "Russian C1-C2",
+    "language": "russian",
+    "books_id": ["65bb6cd342acec92a5350cad"]
+  }
+]
